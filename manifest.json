@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "SpeedTuit",
+  "description": "Integración de Twitter en tu navegador",
+  "background": {
+  	"scripts": ["background.js"]
+  },
+  "version":"1.0",
+  "icons":{
+  	"64" : "icon.png",
+  	"32" : "icon.png",
+  	"16" : "icon.png",
+  	"128" : "icon.png"
+  },
+  "permissions": [
+  	"contextMenus"
+  ]
+}
